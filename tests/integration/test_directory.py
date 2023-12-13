@@ -16,6 +16,7 @@ def mimecast():
 def test_get_profile_groups(mimecast):
     # Get all the profile groups
     profile_groups = mimecast.get_profile_groups()
+    print(profile_groups)
 
     # Assertions
     assert profile_groups is not None
